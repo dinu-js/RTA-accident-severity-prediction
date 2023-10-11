@@ -4,6 +4,5 @@ def countPlots(col , plt , dataframe, sns):
     sns.countplot(x=col, hue='Accident_severity', data=dataframe)
     plt.xlabel(f'{col}')
     plt.xticks(rotation=60)
-    print("Plotting with :",  f'{col}')
     plt.show
 
